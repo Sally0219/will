@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>服務項目 - 惠普進香團</title>
+  <style>
+    body {
+      font-family: "Microsoft JhengHei", sans-serif;
+      background-color: #fffaf0;
+      margin: 0;
+    }
+    header, footer {
+      background-color: #3cb4e7;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 0;
+      margin: 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      text-align: center;
+    }
+    .service-item {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+    }
+    .service-item img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    h2 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>服務項目</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="about.html">關於我們</a></li>
+        <li><a href="form.html">報名參加</a></li>
+        <li><a href="service.html">服務項目</a></li>
+        <li><a href="route.html">交通資訊</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <h2>我們提供以下進香服務</h2>
+    <section class="services">
+      <div class="service-item">
+        <img src="images/order.jpg" alt="維持隊伍秩序">
+        <h3>維持隊伍秩序</h3>
+      </div>
+      <div class="service-item">
+        <img src="images/clean.jpg" alt="維護環境衛生">
+        <h3>維護環境衛生</h3>
+      </div>
+      <div class="service-item">
+        <img src="images/help.jpg" alt="協助信徒">
+        <h3>協助信徒</h3>
+      </div>
+      <div class="service-item">
+        <img src="images/incense.jpg" alt="保護香火">
+        <h3>保護香火</h3>
+      </div>
+      <div class="service-item">
+        <img src="images/palankin.jpg" alt="協助神轎">
+        <h3>協助神轎</h3>
+      </div>
+      <div class="service-item">
+        <img src="images/worship.jpg" alt="參與祭拜">
+        <h3>參與祭拜</h3>
+      </div>
+      <div class="service-item">
+        <img src="images/contact.jpg" alt="交流聯繫">
+        <h3>交流聯繫</h3>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 進香團基都教阿門請走開</p>
+  </footer>
+</body>
+</html>
